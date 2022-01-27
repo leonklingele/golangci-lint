@@ -297,6 +297,14 @@ linters-settings:
     # Default: true
     exclude_godoc_examples: false
 
+  funcresult:
+    # Require the use of named function result parameters only.
+    # Default: false
+    require-named: true
+    # Require the use of unnamed function result parameters only.
+    # Default: false
+    require-unnamed: true
+
   funlen:
     # Checks the number of lines in a function.
     # If lower than 0, disable the check.
@@ -1638,6 +1646,7 @@ linters:
     - exportloopref
     - forbidigo
     - forcetypeassert
+    - funcresult
     - funlen
     - gci
     - gochecknoglobals
@@ -1728,6 +1737,7 @@ linters:
     - exportloopref
     - forbidigo
     - forcetypeassert
+    - funcresult
     - funlen
     - gci
     - gochecknoglobals

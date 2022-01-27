@@ -107,6 +107,7 @@ func (m Manager) GetAllSupportedLinterConfigs() []*linter.Config {
 	var errorlintCfg *config.ErrorLintSettings
 	var exhaustiveCfg *config.ExhaustiveSettings
 	var exhaustiveStructCfg *config.ExhaustiveStructSettings
+	var funcResultCfg *config.FuncResultSettings
 	var gciCfg *config.GciSettings
 	var goModDirectivesCfg *config.GoModDirectivesSettings
 	var goMndCfg *config.GoMndSettings
@@ -140,6 +141,7 @@ func (m Manager) GetAllSupportedLinterConfigs() []*linter.Config {
 		errorlintCfg = &m.cfg.LintersSettings.ErrorLint
 		exhaustiveCfg = &m.cfg.LintersSettings.Exhaustive
 		exhaustiveStructCfg = &m.cfg.LintersSettings.ExhaustiveStruct
+		funcResultCfg = &m.cfg.LintersSettings.FuncResult
 		gciCfg = &m.cfg.LintersSettings.Gci
 		goModDirectivesCfg = &m.cfg.LintersSettings.GoModDirectives
 		goMndCfg = &m.cfg.LintersSettings.Gomnd
@@ -298,6 +300,11 @@ func (m Manager) GetAllSupportedLinterConfigs() []*linter.Config {
 			WithSince("v1.38.0").
 			WithPresets(linter.PresetStyle).
 			WithURL("https://github.com/gostaticanalysis/forcetypeassert"),
+
+		linter.NewConfig(golinters.NewFuncResult(funcResultCfg)).
+			WithSince("v1.45.0").
+			WithPresets(linter.PresetStyle).
+			WithURL("https://github.com/leonklingele/funcresult"),
 
 		linter.NewConfig(golinters.NewFunlen()).
 			WithSince("v1.18.0").
