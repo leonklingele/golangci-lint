@@ -298,9 +298,6 @@ linters-settings:
     exclude_godoc_examples: false
 
   funcresult:
-    # Require the use of named function result parameters only.
-    # Default: false
-    require-named: true
     # Require the use of unnamed function result parameters only.
     # Default: false
     require-unnamed: true

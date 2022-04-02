@@ -262,15 +262,7 @@ type ForbidigoSettings struct {
 }
 
 type FuncResultSettings struct {
-	RequireNamed   bool `mapstructure:"require-named"`
 	RequireUnnamed bool `mapstructure:"require-unnamed"`
-}
-
-func (cfg FuncResultSettings) Validate() error {
-	if cfg.RequireNamed && cfg.RequireUnnamed {
-		return errors.New("require-named and require-unnamed can't be combined")
-	}
-	return nil
 }
 
 type FunlenSettings struct {

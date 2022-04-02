@@ -12,7 +12,6 @@ func NewFuncResult(settings *config.FuncResultSettings) *goanalysis.Linter {
 	linterCfg := map[string]map[string]interface{}{}
 	if settings != nil {
 		linterCfg["funcresult"] = map[string]interface{}{
-			"require-named":   settings.RequireNamed,
 			"require-unnamed": settings.RequireUnnamed,
 		}
 	}
