@@ -68,7 +68,7 @@ require (
 	github.com/quasilyte/go-ruleguard/dsl v0.3.13
 	github.com/ryancurrah/gomodguard v1.2.3
 	github.com/ryanrolds/sqlclosecheck v0.3.0
-	github.com/sanposhiho/wastedassign/v2 v2.0.6
+	github.com/sanposhiho/wastedassign/v2 v2.1.0
 	github.com/securego/gosec/v2 v2.9.5
 	github.com/shazow/go-diff v0.0.0-20160112020656-b6b7b6733b8c
 	github.com/shirou/gopsutil/v3 v3.21.12
@@ -94,7 +94,7 @@ require (
 	github.com/yagipy/maintidx v1.0.0
 	github.com/yeya24/promlinter v0.1.0
 	gitlab.com/bosi/decorder v0.2.1
-	golang.org/x/tools v0.1.9-0.20211228192929-ee1ca4ffc4da
+	golang.org/x/tools v0.13.0
 	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b
 	honnef.co/go/tools v0.2.2
 	mvdan.cc/gofumpt v0.2.1
