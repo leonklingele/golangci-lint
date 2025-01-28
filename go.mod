@@ -18,7 +18,7 @@ require (
 	github.com/breml/bidichk v0.2.1
 	github.com/breml/errchkjson v0.2.1
 	github.com/butuzov/ireturn v0.1.1
-	github.com/charithe/durationcheck v0.0.9
+	github.com/charithe/durationcheck v0.0.10
 	github.com/daixiang0/gci v0.2.9
 	github.com/denis-tingajkin/go-header v0.4.2
 	github.com/esimonov/ifshort v1.0.4
@@ -94,7 +94,7 @@ require (
 	github.com/yagipy/maintidx v1.0.0
 	github.com/yeya24/promlinter v0.1.0
 	gitlab.com/bosi/decorder v0.2.1
-	golang.org/x/tools v0.1.9-0.20211228192929-ee1ca4ffc4da
+	golang.org/x/tools v0.6.0
 	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b
 	honnef.co/go/tools v0.2.2
 	mvdan.cc/gofumpt v0.2.1
