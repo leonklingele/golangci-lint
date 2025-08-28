@@ -95,7 +95,7 @@ require (
 	github.com/yeya24/promlinter v0.1.0
 	gitlab.com/bosi/decorder v0.2.1
 	golang.org/x/tools v0.1.9-0.20211228192929-ee1ca4ffc4da
-	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b
+	gopkg.in/yaml.v3 v3.0.1
 	honnef.co/go/tools v0.2.2
 	mvdan.cc/gofumpt v0.2.1
 	mvdan.cc/interfacer v0.0.0-20180901003855-c20040233aed
