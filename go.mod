@@ -90,6 +90,7 @@ require (
 	github.com/ldez/tagliatelle v0.7.2
 	github.com/ldez/usetesting v0.5.0
 	github.com/leonklingele/grouper v1.1.2
+	github.com/m-ocean-it/errgroup-ctx-lint v0.3.0
 	github.com/macabu/inamedparam v0.2.0
 	github.com/manuelarte/embeddedstructfieldcheck v0.4.0
 	github.com/manuelarte/funcorder v0.6.0

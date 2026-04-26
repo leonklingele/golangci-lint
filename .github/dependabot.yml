@@ -40,6 +40,7 @@ updates:
     directories:
       - pkg/golinters/arangolint/testdata/
       - pkg/golinters/clickhouselint/testdata/
+      - pkg/golinters/errgroupctx/testdata/
       - pkg/golinters/ginkgolinter/testdata/
       - pkg/golinters/loggercheck/testdata/
       - pkg/golinters/protogetter/testdata/

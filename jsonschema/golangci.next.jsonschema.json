@@ -843,6 +843,7 @@
             "embeddedstructfieldcheck",
             "errcheck",
             "errchkjson",
+            "errgroupctx",
             "errname",
             "errorlint",
             "exhaustive",
